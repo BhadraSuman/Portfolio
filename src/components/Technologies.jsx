@@ -3,6 +3,7 @@ import { BiLogoNodejs } from "react-icons/bi";
 import { RiReactjsLine, RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiMongodb, SiPostman, SiSocketdotio } from "react-icons/si";
 import { animate, motion } from "framer-motion";
+import { IoLogoElectron } from "react-icons/io5";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -92,6 +93,15 @@ const Technologies = () => {
         >
           <SiSocketdotio/>
         </motion.div>
+        <motion.div
+          initial="initial"
+          animate="animate"
+          variants={iconVariants(3)}
+          className="p-4"
+        >
+          <IoLogoElectron className="text-blue-400 "/>
+        </motion.div>
+        
       </motion.div>
     </div>
   );
