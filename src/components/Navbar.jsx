@@ -7,9 +7,10 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6">
       <div className="flex flex-col  items-center relative">
-        <a href="/" aria-label="Home">
-          <img src={logo} className="mx-2" width={100} />
-        </a>
+        {/* <a href="/" aria-label="Home">
+          
+        </a> */}
+        <img src={logo} className="mx-2" width={100} />
         <div className="absolute mt-20 mx-auto border-b-2 border-stone-300 w-1/2"></div>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">

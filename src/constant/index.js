@@ -13,9 +13,7 @@ import toggletimer from "../assets/toggletimer.ico";
 import sattva from "../assets/sattva.png";
 import ledfify from "../assets/ledgify.png";
 
-export const HERO_CONTENT = `Highly motivated and results-oriented B. Tech student with a strong foundation in programming and a passion for crafting
-efficient, scalable software & web solutions. Finalist in the prestigious Smart India Hackathon, demonstrating exceptional problemsolving and teamwork skills.
-`;
+export const HERO_CONTENT = `I'm a full-stack developer with expertise in the MERN stack, focused on building and deploying scalable web applications. My skills extend to DevOps and cloud infrastructure, including the use of Socket.IO for real-time features, and managing virtual machines on GCP and AWS. I am proficient in configuring web servers like Nginx for robust and efficient deployments, enabling me to manage projects from initial development to live production.`;
 
 export const ABOUT_TEXT = "";
 export const EDUCATION = [
